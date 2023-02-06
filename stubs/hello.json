@@ -1,0 +1,6 @@
+{
+  "service": "Greeter",
+  "method": "Hi",
+  "input": { "matches": { "name": ".*" } },
+  "output": { "data": { "reply": "Hi from mock" } }
+}

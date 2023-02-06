@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package proto;
+option go_package = "github.com/jsainthilaire/try-gripmock/hello";
+
+service Greeter {
+  rpc Hi (HiRequest) returns (HiReply) {}
+}
+
+message HiRequest {
+  string name = 1;
+}
+
+message HiReply {
+  string reply = 1;
+}
